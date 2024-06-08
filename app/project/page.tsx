@@ -7,7 +7,7 @@ import Layout from '../components/Layout/Layout';
 import ArticleCard from '../components/Project/ArticleCard';
 import VideoCard from '../components/Project/YoutubeCard';
 
-const MyProjects = () => {
+const Project = () => {
     return (
         <Layout>
             <div className='p-10 lg:p-20'>
@@ -42,4 +42,4 @@ const MyProjects = () => {
     );
 };
 
-export default MyProjects;
+export default Project;

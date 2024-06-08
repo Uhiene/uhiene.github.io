@@ -4,7 +4,7 @@ import Hero from '../components/Hero/Hero'
 import About from '../components/About'
 import Layout from '../components/Layout/Layout'
 
-const page = () => {
+const Home = () => {
   return (
     <Layout>
         <Hero/>
@@ -13,4 +13,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Home
