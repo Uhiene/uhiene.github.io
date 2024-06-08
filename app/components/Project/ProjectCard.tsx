@@ -25,7 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, className = '' }) =>
       <div className="p-4">
         <h2 className="text-sm font-semibold mb-2">{project.name}</h2>
         <p className="text-sm text-gray-600">{project.description}</p>
-        <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline block mt-2">
+        <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:underline block mt-2">
           View Project
         </a>
       </div>

@@ -7,8 +7,8 @@ import Layout from '../components/Layout/Layout'
 const Home = () => {
   return (
     <Layout>
-        <Hero/>
-        <About/>
+      <Hero />
+      <About />
     </Layout>
   )
 }

@@ -34,15 +34,18 @@ const Resume = () => {
  
   return (
     <Layout>
-      <div className='bg-[#F8F9FA] p-10 lg:p-20 flex flex-col items-center gap-16'>
-        <h1 className='text-5xl font-bold gradient-text'>Resume</h1>
+      <div className='bg-[#F8F9FA] p-5 md:p-10 lg:p-20 flex flex-col items-center gap-10 md:gap-16'>
+        <h1 className='text-3xl md:text-5xl font-bold gradient-text'>Resume</h1>
 
         <div className="w-full lg:w-4/5">
-          <div className='flex justify-between mb-8'>
-            <h1 className='text-3xl font-bold text-pink-500'> Experience</h1>
+          <div className='flex justify-between mb-5 md:mb-8'>
+            <h1 className='text-2xl md:text-3xl font-bold text-pink-500'> Experience</h1>
             <Link href="https://www.dropbox.com/scl/fi/vjm0zvi4ivl1epl1izmg4/Princess-Uhiene-CV.pdf?rlkey=up6p2v215ys7t2arzqpfxlx26&st=yk6dka5w&dl=0" target='_blank'>
-            <button className="bg-pink-500 text-white p-4 rounded-lg flex gap-2 items-center">
+            <button className="bg-pink-500 text-white p-4 rounded-lg hidden md:flex gap-2 items-center ">
               <TbDownload /> Download Resume
+            </button>
+            <button className="bg-pink-500 text-white p-2 rounded-lg block md:hidden">
+              <TbDownload />
             </button>
             </Link>
           </div>
@@ -109,8 +112,8 @@ const Resume = () => {
         </div>
 
         <div className="w-full lg:w-4/5">
-          <div className='flex justify-between mb-8'>
-            <h1 className='text-3xl font-bold text-pink-500'> Education</h1>
+          <div className='flex justify-between mb-5 md:mb-8'>
+            <h1 className='text-2xl md:text-3xl font-bold text-pink-500'> Education</h1>
           </div>
           <ResumeCard
             dateRange="2018 - 2023"

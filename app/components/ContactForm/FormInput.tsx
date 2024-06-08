@@ -11,7 +11,6 @@ interface FormInputProps {
     as?: 'input' | 'textarea';
 }
 
-// Define the props for the StyledInput component explicitly
 interface StyledInputProps extends React.InputHTMLAttributes<HTMLInputElement> {
     focused?: boolean;
 }
@@ -19,7 +18,7 @@ interface StyledInputProps extends React.InputHTMLAttributes<HTMLInputElement> {
 const StyledInputContainer = styled.div`
   position: relative;
   margin: 20px auto;
-  width: 80%; // Default styling for all screen sizes
+  width: 80%; 
 
   @media (max-width: 768px) { 
     width: 100%; 
@@ -56,7 +55,7 @@ const StyledPlaceholder = styled.span<{ focused: boolean }>`
    ${({ focused }) =>
         focused &&
         css`
-      font-size: 12px; // Reduce font size when focused
+      font-size: 12px; 
     `}
 `;
 
@@ -80,7 +79,7 @@ const FormInput: React.FC<FormInputProps> = ({ id, name, placeholder, type = 'te
                 }}
                 required
                 className={`w-full p-2 border rounded`}
-                focused={isFocused} // Pass the focused prop explicitly
+                focused={isFocused} 
             />
         </StyledInputContainer>
     );

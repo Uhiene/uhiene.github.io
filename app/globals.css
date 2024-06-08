@@ -18,8 +18,6 @@
   font-style: normal;
 }
 
-
-
 body {
   font-family: "Jacquard 12", system-ui;
 }
@@ -39,7 +37,8 @@ body {
  .pulse:hover {
     animation: pulse 2s infinite;
   }
-/* Define keyframes for sliding down (in) */
+
+/* Defined keyframes for sliding down (in) */
 @keyframes slideDown {
   0% {
     transform: translateY(-100%);

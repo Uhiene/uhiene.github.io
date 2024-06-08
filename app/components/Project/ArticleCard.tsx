@@ -19,7 +19,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
       <div className="py-2">
         <h2 className="font-bold text-sm mb-2">{article.name}</h2>
         {/* <p className="text-gray-600 mb-2">{article.description}</p> */}
-        <a href={article.link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+        <a href={article.link} target="_blank" rel="noopener noreferrer" className="text-pink-500 hover:underline">
           Read More
         </a>
       </div>

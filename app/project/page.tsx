@@ -10,19 +10,19 @@ import VideoCard from '../components/Project/YoutubeCard';
 const Project = () => {
     return (
         <Layout>
-            <div className='p-10 lg:p-20'>
+            <div className='p-5 md:p-10 '>
                 <div>
-                    <h1 className='text-3xl font-bold text-pink-500 mb-6'>Works</h1>
-                    <div className="flex flex-wrap justify-between gap-10 lg:gap-0">
+                    <h1 className='text-2xl md:text-3xl font-bold text-pink-500 mb-4 md:mb-6'>Works</h1>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                         {projects.map((project, index) => (
                             <ProjectCard key={index} project={project} />
                         ))}
                     </div>
                 </div>
 
-                <div className='my-40'>
-                    <h1 className='text-3xl font-bold text-pink-500 mb-6'>Articles</h1>
-                    <div className="flex flex-wrap justify-between gap-10 lg:gap-0">
+                <div className='my-16 lg:my-20'>
+                    <h1 className='text-2xl md:text-3xl font-bold text-pink-500 mb-4 md:mb-6'>Articles</h1>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                         {articles.map((article, index) => (
                             <ArticleCard key={index} article={article} />
                         ))}
@@ -30,8 +30,8 @@ const Project = () => {
                 </div>
 
                 <div>
-                    <h1 className='text-3xl font-bold text-pink-500 mb-6'>Youtube Videos</h1>
-                    <div className="flex flex-wrap justify-between lg:justify-start gap-8">
+                    <h1 className='text-2xl md:text-3xl font-bold text-pink-500 mb-4 md:mb-6'>Youtube Videos</h1>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                         {videos.map((video, index) => (
                             <VideoCard key={index} video={video} />
                         ))}

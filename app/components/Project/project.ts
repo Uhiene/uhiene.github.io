@@ -7,25 +7,25 @@ const projects = [
   {
     name: 'Dapp Workout',
     image: img3,
-    link: 'https://example.com/project1',
+    link: 'https://dappworkout.web.app/',
     description: 'A decentralized application for tracking and managing workouts.',
   },
   {
     name: 'PayCode',
     image: img2,
-    link: 'https://example.com/project1',
+    link: 'https://pay-code.vercel.app/',
     description: 'A secure payment gateway for seamless online transactions.',
   },
   {
     name: 'PayLeave',
     image: img4,
-    link: 'https://example.com/project2',
+    link: 'https://paypurse-b9e04.web.app/',
     description: 'Manage and track employee leaves efficiently and effectively.',
   },
   {
     name: 'People Learn',
     image: img1,
-    link: 'https://example.com/project2',
+    link: 'http://peoplelearn.io/',
     description: 'An educational platform for collaborative learning and development.',
   },
 ];

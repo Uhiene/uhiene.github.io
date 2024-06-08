@@ -1,11 +1,9 @@
-// Inside./components/NavItem.tsx
-
 import Link from 'next/link';
 
 interface NavItemProps {
   text: string;
   href: string;
-  active?: boolean; // Optional because it's not always necessary to know if a nav item is active
+  active?: boolean; 
 }
 
 const NavItem: React.FC<NavItemProps> = ({ text, href, active = false }) => {
