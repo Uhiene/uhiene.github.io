@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Aside = () => {
@@ -10,14 +11,16 @@ const Aside = () => {
                 Versatile Frontend Dev passionate about exceptional digital experiences, specializing in design, project management, tutoring, and educational YouTube content.
             </p>
             <div className='flex items-center justify-center lg:justify-start gap-6'>
-                <button className="bg-pink-500 text-white p-3 rounded-lg pulse">
-                    Resume
-                </button>
-
-                <button className="border-pink-500 border text-pink-500 p-3 rounded-lg pulse">
-                    Projects
-                </button>
-
+                <Link href='/resume'>
+                    <button className="bg-pink-500 text-white p-3 rounded-lg pulse">
+                        Resume
+                    </button>
+                </Link>
+                <Link href="/project">
+                    <button className="border-pink-500 border text-pink-500 p-3 rounded-lg pulse">
+                        Projects
+                    </button>
+                </Link>
             </div>
         </div>
     );
