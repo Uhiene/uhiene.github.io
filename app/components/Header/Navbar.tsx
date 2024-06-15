@@ -18,7 +18,7 @@ const Navbar = () => {
                 <h1 className='text-2xl italic gradient-text logo lobster-regular'>Code Duchess</h1>
             </Link>
             <div className="lg:hidden"> 
-                <button onClick={toggleMenu} className="text-pink-600">
+                <button onClick={toggleMenu} className="text-pink-600 text-xl">
                     <TiThMenuOutline />
                 </button>
             </div>
