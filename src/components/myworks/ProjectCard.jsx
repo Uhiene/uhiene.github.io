@@ -5,7 +5,7 @@ const ProjectCard = ({ imageSrc, imageAlt, category, title, projectLink }) => {
   return (
     <div className="flex gap-8 w-full hover:cursor-pointer group">
       {/* Image Section */}
-      <div className="relative w-full lg:w-56 h-40 group overflow-hidden">
+      <div className="relative w-full lg:w-[500px] h-40 group overflow-hidden">
         <img
           src={imageSrc}
           alt={imageAlt}

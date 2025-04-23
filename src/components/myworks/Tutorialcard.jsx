@@ -1,9 +1,9 @@
 import React from "react";
 
-const Tutorialcard = ({ articlelink, imageSrc, title }) => {
+const Tutorialcard = ({ tutoriallink, imageSrc, title }) => {
   return (
     <div className="w-40 lg:w-56 text-white">
-      <a href={articlelink} className="block bg-gray-100 text-ash1">
+      <a href={tutoriallink} className="block text-amber-100">
         <img
           src={imageSrc}
           alt={title}
